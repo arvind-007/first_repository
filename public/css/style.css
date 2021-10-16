@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+header {
+    background: blue;
+    height: 30px;
+    color: #fff;
+}
+
+header .logo {
+    width: 100px;
+    text-transform: uppercase;
+    float: left;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+header a {
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    float: left;
+    margin: 5px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+header .auth-menu {
+    float: right;
+}
