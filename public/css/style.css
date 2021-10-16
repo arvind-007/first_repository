@@ -38,6 +38,33 @@ header ul li {
     font-size: 12px;
 }
 
-header .auth-menu {
+header .auth-menu 
+{
     float: right;
+}
+.first_section
+{
+    display:block;
+    height: 356px;;
+}
+.map {
+    float: left;
+}
+.image
+{
+    margin: 5px;
+    width: 500px;
+    height: 300px;
+}
+.contact h2
+{
+margin-left: 600px;
+}
+p
+{
+margin-left: 600px;
+}
+label
+{
+    padding: 20px;
 }
