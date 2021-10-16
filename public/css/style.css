@@ -43,6 +43,8 @@ header .auth-menu
 {
     float: right;
 }
+
+/* contact us */
 .first_section
 {
     display:block;
@@ -69,9 +71,10 @@ label
 {
     padding: 20px;
 }
-header .auth-menu {
-    float: right;
-}
+
+
+/* services */
+
 .h1 {
     margin: 5%;
 }
@@ -113,7 +116,7 @@ header .auth-menu {
 
 
 
-
+/* home page */
 
 
 body section div img{
