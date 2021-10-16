@@ -37,7 +37,49 @@ header ul li {
     padding: 2px;
     font-size: 12px;
 }
-
 header .auth-menu {
     float: right;
 }
+.h1 {
+    margin: 5%;
+}
+.websiteimg{
+    padding: 5px;
+       font: left;
+       height: 200px;
+       width: 400px;
+    
+}
+.website{
+    
+    padding:20px;
+  
+}
+.appsimg{
+    font: left;
+       height: 200px;
+     
+       width: 400px
+}
+.apps{
+    height: auto;
+    padding:20px;
+
+}
+.seoimg{
+    margin-left: 0%;
+    font: left;
+       height: 200px;
+       width: 400px
+}
+.seo{
+    height: auto;
+    padding:20px;
+}
+
+
+
+
+
+
+
