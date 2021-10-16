@@ -1,6 +1,6 @@
 
     <footer>
-        This is my footer
+        This is my footer<br> <br><br>
     </footer>
 </body>
 
