@@ -1,4 +1,4 @@
-<section> About us </section>
+<section class="about_us"> About us </section>
 
 <div>
 <div>

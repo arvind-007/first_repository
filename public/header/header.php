@@ -7,7 +7,7 @@
         <div class="nav-menu">
             <ul>
                 <li>
-                    <a href="<?php $base_url; ?>">Home</a>
+                    <a href="<?php $base_url; ?>index.php">Home</a>
                 </li>
                 <li>
                     <a href="<?php $base_url; ?>about.php">About US
