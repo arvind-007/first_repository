@@ -1,36 +1,47 @@
 <section>
-    <div>
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg">
+    <div class="first_div">
+        Aarambh
     </div>
+    <center>
     <div class="circle">
         <div>
-            <li class="circle1">
-                <a href="#" class="fab fa-windows fa-5x "></a>
-            </li>
-            <p>
-            <h2>Window</h2>
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam odit eveniet at, molestiae quae."
-            </p>
-        </div>
-        <div>
-            <li>
-                <a href="#" class="fab fa-apple fa-5x "></a>
+                <li>
+                    <a href="https://www.microsoft.com/en-in/windows/" class="fab fa-windows fa-5x "></a>
+                </li>
 
-            </li>
-            <p>
-            <h2>ios</h2>
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam odit eveniet at, molestiae quae."
-            </p>
+                <p>
+                <h2>Window</h2>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat
+                voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam
+                odit eveniet at, molestiae quae."
+                </p>
         </div>
         <div>
-            <li>
-                <a href="#" class="fab fa-linux fa-5x "></a>
-            </li>
-            <p>
-            <h2>linux</h2>
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam odit eveniet at, molestiae quae."
-            </p>
+                <li>
+                    <a href="https://developer.apple.com/ios/" class="fab fa-apple fa-5x "></a>
+                </li>
+
+                <p>
+                <h2>ios</h2>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat
+                voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam
+                odit
+                eveniet at, molestiae quae."
+                </p>
+        </div>
+        <div>
+                <li>
+                    <a href="https://www.linux.org/" class="fab fa-linux fa-5x "></a>
+                </li>
+                
+                <p>
+                <h2>linux</h2>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat
+                voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam
+                odit
+                eveniet at, molestiae quae."
+                </p>
         </div>
     </div>
+    </center>
 </section>
-<br><br><br>
