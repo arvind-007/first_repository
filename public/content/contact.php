@@ -6,31 +6,36 @@
 </head>
 
 <body>
-    <sec class="first_section">
-            <div class="map">
-                <img class="image" src="./img/map.png">
-            </div>
-            <div class="contact">
-                <h2> Address</h2>
-                <p>Nawalgarh, Rajasthan, Ghumchakar road</p>
-                <h2>Contact No. :</h2>
-                <p>Rahul Singh :- 6376538745<br>
-                    Ravi Singh :- 9352195055<br>
-                    Manish Patodia :- 9602065385<br>
-                    Deepak Saini :- 6376893673<br>
-                    Piyush Singh :- 9351265551</p>
-            </div>
-</sec>
-        <sec class="second_section">
-        <div>
-            <form>
-                <label>Name:</label><input type="text">
-                <label>Contact No.:</label><input type="text">
-                <label>Contact No.:</label><input type="text box">
-                
-            </form>
-        </div>
-    </sec>
+<section1>
+
+<div class="div1">
+    <img src="./img/map.png">
+</div>        
+<div class="div2">
+    <h2>Address</h2>
+    <Address>
+        Nawalgarh, Rajasthan (Jhunjhunu)
+        Ghumchakar Road
+    </Address>
+</div>
+<div class="div3">
+    <h2>Contact Us </h2>
+    Rahul Singh :- 6376538745
+</div>        
+
+</section1>
+<section2>
+<div class="div4">
+
+<form >
+    <label>Name :</label><input type="text"><br><br>
+    <label>Contact No. :</label> <input type="text"><br><br>
+    <label>Message :</label><br><br>
+    <textarea rows="4" columns="50"></textarea><br><br>
+</form>
+<button>Submit</button>
+</div>
+</section2>
 </body>
 
 </html>

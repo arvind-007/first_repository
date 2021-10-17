@@ -43,32 +43,7 @@ header .auth-menu
 {
     float: right;
 }
-.first_section
-{
-    display:block;
-    height: 356px;;
-}
-.map {
-    float: left;
-}
-.image
-{
-    margin: 5px;
-    width: 500px;
-    height: 300px;
-}
-.contact h2
-{
-margin-left: 600px;
-}
-p
-{
-margin-left: 600px;
-}
-label
-{
-    padding: 20px;
-}
+
 header .auth-menu {
     float: right;
 }
@@ -193,3 +168,42 @@ body section div img{
     padding: 15px;
     padding-left: 300px;
 }
+#name
+{
+    margin-left: 10px;
+}
+
+/* contact us tab */
+
+section1
+{
+width:90%;
+margin: 43px 16px ;
+display: grid;
+grid-template-rows: 333px  ;
+grid-template-columns: 532px repeat(2,1fr);
+grid-gap: 20px;
+}
+.div1 img
+{
+height: 333px;
+width: 532px;
+} 
+.div2
+{
+    background: linear-gradient(118deg, skyblue, grey);
+}
+.div3{background: linear-gradient(109deg, brown 10%, black 99%);}
+section2
+{
+    background: linear-gradient(164deg, black, gray,black,gray,black,gray);
+    text-align: center;
+    display: block;
+    
+}
+form
+{
+   padding: 10px; 
+   color:white;
+}
+ 
