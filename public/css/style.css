@@ -74,43 +74,106 @@ label
 
 
 /* services */
+.services{
+    
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(0,212,255,1) 100%);
+    font-weight:800;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    text-align: center
+}
 
 .h1 {
+
     margin: 5%;
 }
+
 .websiteimg{
     padding: 5px;
        font: left;
-       height: 200px;
-       width: 400px;
+       height: 250px;
+       width: 550px;
+       margin-left: 1%;
     
 }
 .website{
-    
+    width: 100%;
     padding:20px;
-  
+    text-align: justify;
 }
-.appsimg{
-    font: left;
-       height: 200px;
-     
-       width: 400px
+
+.websitetext{ 
+    font-size: 20px;
+    width: 100%;
+      
 }
-.apps{
-    height: auto;
-    padding:20px;
+
+
+.h2 {
+    margin: 5%;
 
 }
+.appsimg{
+    padding: 5px;
+       font: left;
+       height: 250px;
+       width: 550px;
+       margin-left: 1%;
+}
+.apps{
+    width: 50%;
+    padding:20px;
+    text-align: justify;
+
+}
+.appstext{
+    font-size: 20px;
+    width: 100%;
+}
+.h3{
+    margin: 5%;
+}
 .seoimg{
-    margin-left: 0%;
-    font: left;
-       height: 200px;
-       width: 400px
+    padding: 5px;
+       font: left;
+       height: 250px;
+       width: 550px;
+       margin-left: 2%;
 }
 .seo{
-    height: auto;
+    width: 50%;
     padding:20px;
+    text-align: justify;
 }
+.seotext{
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
