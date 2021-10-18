@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     font-size: 14px;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 header {
-    background: blue;
+    background: #2e2c2a;
     height: 30px;
     color: #fff;
 }
@@ -22,6 +22,7 @@ header .logo {
 a {
     text-decoration: none;
 }
+
 header a {
     color: #fff;
 }
@@ -39,117 +40,215 @@ header ul li {
     font-size: 12px;
 }
 
-header .auth-menu 
-{
+header .auth-menu {
     float: right;
 }
 
 header .auth-menu {
     float: right;
-}
-.h1 {
-    margin: 5%;
-}
-.websiteimg{
-    padding: 5px;
-       font: left;
-       height: 200px;
-       width: 400px;
-    
-}
-.website{
-    
-    padding:20px;
-  
-}
-.appsimg{
-    font: left;
-       height: 200px;
-     
-       width: 400px
-}
-.apps{
-    height: auto;
-    padding:20px;
 
-}
-.seoimg{
-    margin-left: 0%;
-    font: left;
-       height: 200px;
-       width: 400px
-}
-.seo{
-    height: auto;
-    padding:20px;
+/* contact us */
+
+.first_section {
+    display: block;
+    height: 356px;
+    ;
 }
 
+.map {
+    float: left;
+}
 
-
-
-
-
-
-
-body section div img{
-    width: 1215px;
+.image {
+    margin: 5px;
+    width: 500px;
     height: 300px;
 }
 
-.circle{
-    height: 400px;
-    margin-left: 130px;
+.contact h2 {
+    margin-left: 600px;
 }
 
-.circle div{
-    text-align: center;
-    float: left;
-    width: 300px;
+p {
+    margin-left: 600px;
 }
 
-.circle li{
-    list-style-type: none;
-    width: 125px;
-    height: 100px;
-    border: 2px solid;
-    border-radius: 98px;
-    margin: 90px;
-    margin-bottom: 10px;
-    padding-top: 25px;
-}
-
-.circle a{
-    color: black;
-}
-
-.circle1 a{
-    color :blue
+label {
+    padding: 20px;
 }
 
 
-/*aboutus css*/
-.about_us{
+/* services */
+.services{
+    
     color: white;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(0,212,255,1) 100%);
     font-weight:800;
     font-size: 50px;
     font-family: 'PT Serif', serif;
-    text-align: center;
-    
+    text-align: center
 }
 
-.aboutimg{
+.h1 {
+
+    margin: 5%;
+}
+
+.websiteimg{
+    padding: 5px;
+       font: left;
+       height: 250px;
+       width: 550px;
+       margin-left: 1%;
+    
+}
+.website{
+    width: 100%;
+    padding:20px;
+    text-align: justify;
+}
+
+.websitetext{ 
+    font-size: 20px;
+    width: 100%;
+      
+}
+
+
+.h2 {
+    margin: 5%;
+
+}
+.appsimg{
+    padding: 5px;
+       font: left;
+       height: 250px;
+       width: 550px;
+       margin-left: 1%;
+}
+.apps{
+    width: 50%;
+    padding:20px;
+    text-align: justify;
+}
+
+.apps {
+    height: auto;
+    padding: 20px;
+}
+.appstext{
+    font-size: 20px;
+    width: 100%;
+}
+.h3{
+    margin: 5%;
+}
+.seoimg{
+    padding: 5px;
+       font: left;
+       height: 250px;
+       width: 550px;
+       margin-left: 2%;
+}
+.seo{
+    width: 50%;
+    padding:20px;
+    text-align: justify;
+}
+.seotext{
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home page */
+
+.first_div {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(-12deg, black 50%, orange 30%);
+    font-size: 100px;
+    font-family: cursive;
+}
+
+.circle {
+    height: 400px;
+}
+
+.circle div {
+    margin: 3% 2%;
+    float: left;
+    width: 29%;
+}
+
+.circle li {
+    list-style-type: none;
+    width: 125px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 100%;
+    padding-top: 25px;
+}
+
+.circle a {
+    color: black;
+}
+
+.circle p {
+    font-family: system-ui;
+}
+
+
+/*aboutus css*/
+
+.about_us {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.aboutimg {
     width: 18%;
     float: left;
     margin: 20px;
     margin-left: 200px;
 }
 
-.abouttxt{
+.abouttxt {
     background-color: rgb(198, 213, 241);
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,107,9,1) 43%, rgba(0,212,255,1) 100%);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 107, 9, 1) 43%, rgba(0, 212, 255, 1) 100%);
     font-size: 18px;
     font-weight: 700;
     font-family: 'EB Garamond', serif;
@@ -159,11 +258,11 @@ body section div img{
     height: 320px;
 }
 
-.list_css{
+.list_css {
     background-color: rgb(36, 34, 44);
-    background: rgb(34,36,0);
-    background: linear-gradient(90deg, rgba(34,36,0,1) 0%, rgba(9,121,110,1) 77%, rgba(46,0,255,1) 93%);
-    text-align:left;
+    background: rgb(34, 36, 0);
+    background: linear-gradient(90deg, rgba(34, 36, 0, 1) 0%, rgba(9, 121, 110, 1) 77%, rgba(46, 0, 255, 1) 93%);
+    text-align: left;
     font-weight: 800;
     padding: 15px;
     padding-left: 300px;
@@ -243,3 +342,4 @@ button
 }
 
  
+}
