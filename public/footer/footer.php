@@ -1,63 +1,93 @@
-<footer>
-<div class="container-fluid">
-  <footer class="py-5">
-    <div class="row">
-      <div class="col-2">
-        <h5>Company</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2" ><a href="#" class="nav-link p-0 text-muted">about us</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our services</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliate Program</a></li>
-    
-        </ul>
-      </div>
+<div class="container-fluid my-5 p-0">
+    <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+        <div class="container p-4 pb-0">
+            <section>
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
 
-      <div class="col-2">
-        <h5>Categories</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ui Design</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Php</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Java</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Android</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Templates</a></li>
-        </ul>
-      </div>
+                    <hr class="w-100 clearfix d-md-none" />
 
-      <div class="col-2">
-        <h5>Help & Support</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support Policy</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Refund Policy</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Buyers Faq</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sellers Faq</a></li>
-        </ul>
-      </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                        <p>
+                            <a class="text-white">MDBootstrap</a>
+                        </p>
+                        <p>
+                            <a class="text-white">MDWordPress</a>
+                        </p>
+                        <p>
+                            <a class="text-white">BrandFlow</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Bootstrap Angular</a>
+                        </p>
+                    </div>
 
-      <div class="col-4 offset-1">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of whats new and exciting from us.</p>
-          <div class="d-flex w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-            <button class="btn btn-primary" type="button">Subscribe</button>
-          </div>
-        </form>
-      </div>
-    </div>
+                    <hr class="w-100 clearfix d-md-none" />
 
-    <div class="d-flex justify-content-between py-4 my-4 border-top ">
-      <p>&copy; 2021 Company, Inc. All rights reserved.</p>
-      <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="fab fa-instagram" href="#"><svg class="bi" width="24" height="24" ><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="fab fa-facebook" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="fab fa-twitter" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-      </ul>
-    </div>
-  </footer>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a class="text-white">Your Account</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Help</a>
+                        </p>
+                    </div>
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="my-3">
+
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="p-3">
+                            © 2020 Copyright:
+                            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-google"></i></a>
+                        <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+        </div>
+    </footer>
 </div>
 </body>
+
 </html>
