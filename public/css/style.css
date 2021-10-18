@@ -262,7 +262,8 @@ label {
 }
 
 .aboutimg {
-    width: 18%;
+    max-width: 240px;
+    width: 100%;
     float: left;
     margin: 2%;
     margin-left: 200px;
