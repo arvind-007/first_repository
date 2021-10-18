@@ -186,16 +186,27 @@ grid-gap: 20px;
 }
 .div1 img
 {
-height: 333px;
-width: 532px;
+    border-radius: 10px;
+    height: 333px;
+    width: 532px;
 } 
 .div2
 {
+    border-radius: 10px;
     background: linear-gradient(118deg, skyblue, grey);
+    text-align: center;
+    color: floralwhite;
 }
-.div3{background: linear-gradient(109deg, brown 10%, black 99%);}
+.div3
+{
+    border-radius: 10px;
+    background: linear-gradient(109deg, brown 10%, black 99%);
+    color: floralwhite;
+    text-align: center;
+}
 section2
 {
+    border-radius: 10px;
     background: linear-gradient(164deg, black, gray,black,gray,black,gray);
     text-align: center;
     display: block;
@@ -204,6 +215,31 @@ section2
 form
 {
    padding: 10px; 
-   color:white;
+   color:floralwhite;
 }
+label
+{
+    padding-right: 10px;
+}
+input
+{
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+}
+textarea
+{
+    background:gray;
+    /* background-color: gray; */
+    border-radius: 10px;
+    border-color: black;
+}
+button
+{
+    color: floralwhite;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+}
+
  
