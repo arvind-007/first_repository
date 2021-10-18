@@ -265,28 +265,26 @@ label {
 }
 
 .aboutimg {
-    width: 18%;
+    max-width: 240px;
+    width: 100%;
     float: left;
-    margin: 20px;
+    margin: 2%;
     margin-left: 200px;
 }
 
 .abouttxt {
-    background-color: rgb(198, 213, 241);
-    background: rgb(2, 0, 36);
+    
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 107, 9, 1) 43%, rgba(0, 212, 255, 1) 100%);
     font-size: 18px;
     font-weight: 700;
     font-family: 'EB Garamond', serif;
-    text-shadow: crimson;
     margin-left: 0%;
     padding-top: 100px;
     height: 320px;
 }
 
 .list_css {
-    background-color: rgb(36, 34, 44);
-    background: rgb(34, 36, 0);
+  
     background: linear-gradient(90deg, rgba(34, 36, 0, 1) 0%, rgba(9, 121, 110, 1) 77%, rgba(46, 0, 255, 1) 93%);
     text-align: left;
     font-weight: 800;
