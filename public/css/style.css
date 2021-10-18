@@ -56,3 +56,18 @@ a {
     font-family: system-ui;
 }
 
+/* Fotter*/
+
+.ms-3 a{
+    color: black;
+
+}
+.py-5{
+    background-color: gray;
+   
+    margin: -10px;
+}
+
+.nav-item mb-2 a{
+    color: #ffff!important;
+}
