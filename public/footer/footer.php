@@ -1,5 +1,5 @@
-<footer>
-        <div class="container">
+ <footer>
+<!--        <div class="container">
             <div class="row">
                 <div class="footer-col">
                     <h4>COMPANY</h4>
@@ -45,7 +45,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>-->
     </footer>
 </body>
-</html>
+</html> 
