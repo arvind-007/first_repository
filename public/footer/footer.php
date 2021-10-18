@@ -1,51 +1,63 @@
- <footer>
-<!--        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>COMPANY</h4>
-                    <ul>
-                        <li> <a href="#"> about us</a></li>
-                <li> <a href="#"> our services</a></li>
-                <li> <a href="#"> privacy policy</a></li>
-                <li> <a href="#"> affiliate program</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4> CATEGORIES</h4>
-                    <ul>
-                        <li> <a href="#">Ui Design </a></li>
-                <li> <a href="#"> PhP</a></li>
-                <li> <a href="#"> Java</a></li>
-                <li> <a href="#">Android</a></li>
-                <li> <a href="#"> Templates</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>HELP SUPPORT</h4>
-                    <ul>
-                        <li> <a href="#">Terms & Conditions</a></li>
-                        <li> <a href="#">Support Policy </a></li>
-                        <li> <a href="#">Refund Policy</a></li>
-                        <li> <a href="#">FAQs </a></li>
-                        <li> <a href="#">Buyers Faq </a></li>
-                        <li> <a href="#">Sellers Faq </a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>FOLLOW US</h4>
-                    <ul>
-                        <li>
-                            <i class="fab fa-facebook"></i>
-                        </li>
-                        <li><a href="#"><i class="fab fa-instagram"></i> </li>
-                        <li><a href="#"><i class="fab fa-whatsapp"></i></li>
-                        <li> <a href="#"><i class="fab fa-linkedin-in"></i></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i> </li>
-                    </ul>
-                    </ul>
-                </div>
-            </div>
-        </div>-->
-    </footer>
+<footer>
+<div class="container-fluid">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2" ><a href="#" class="nav-link p-0 text-muted">about us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Affiliate Program</a></li>
+    
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Categories</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ui Design</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Php</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Java</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Android</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Templates</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Help & Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Refund Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Buyers Faq</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sellers Faq</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top ">
+      <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="fab fa-instagram" href="#"><svg class="bi" width="24" height="24" ><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="fab fa-facebook" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="fab fa-twitter" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
 </body>
-</html> 
+</html>
