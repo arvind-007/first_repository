@@ -21,7 +21,7 @@
                              
              
                 </p>
-                      <p style=" margin-left: 60px; margin-top: -15px;  margin-right: 23px;">
+                      <p style=" margin-left: 60px; margin-top: 0px;  margin-right: 23px;">
                            website databases  <br>
                            shared content between web pages.
                             <br><br> Web Browsers <br><br>
