@@ -1,5 +1,5 @@
 <section class="about_us"> About us </section>
-
+<center>
 <div>
 <div>
     <img class="aboutimg" src="https://m.media-amazon.com/images/I/41S3VlVJODL.jpg" alt="aarambh image">
@@ -22,3 +22,4 @@
         <li> By our institute "if you give your best" you are able to achive your dream job</li>
     </ul>
 </div>
+</center>
