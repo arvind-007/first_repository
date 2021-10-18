@@ -44,6 +44,9 @@ header .auth-menu {
     float: right;
 }
 
+header .auth-menu {
+    float: right;
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -288,3 +291,79 @@ label {
     padding: 15px;
     padding-left: 300px;
 }
+#name
+{
+    margin-left: 10px;
+}
+
+/* contact us tab */
+
+section1
+{
+width:90%;
+margin: 43px 16px ;
+display: grid;
+grid-template-rows: 333px  ;
+grid-template-columns: 532px repeat(2,1fr);
+grid-gap: 20px;
+}
+.div1 img
+{
+    border-radius: 10px;
+    height: 333px;
+    width: 532px;
+} 
+.div2
+{
+    border-radius: 10px;
+    background: linear-gradient(118deg, skyblue, grey);
+    text-align: center;
+    color: floralwhite;
+}
+.div3
+{
+    border-radius: 10px;
+    background: linear-gradient(109deg, brown 10%, black 99%);
+    color: floralwhite;
+    text-align: center;
+}
+section2
+{
+    border-radius: 10px;
+    background: linear-gradient(164deg, black, gray,black,gray,black,gray);
+    text-align: center;
+    display: block;
+    
+}
+form
+{
+   padding: 10px; 
+   color:floralwhite;
+}
+label
+{
+    padding-right: 10px;
+}
+input
+{
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+}
+textarea
+{
+    background:gray;
+    /* background-color: gray; */
+    border-radius: 10px;
+    border-color: black;
+}
+button
+{
+    color: floralwhite;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+}
+
+ 
+
