@@ -131,7 +131,7 @@
                           search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which 
                           search engines are preferred by their targeted audience.
                     </p>
-                    <p  style=" margin-left: 60px; margin-top: -20px;  margin-right: 23px; text-align: justify; width =63%">
+                    <p  style=" margin-left: 60px; margin-top: 0px;  margin-right: 23px; text-align: justify; width =63%">
                              SEO is performed because a website will receive more visitors
                              from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then
                              potentially be  <br> <br>
