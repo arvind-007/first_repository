@@ -44,6 +44,34 @@ header .auth-menu {
     float: right;
 }
 
+header .auth-menu {
+    float: right;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.container{
+    background-color: gray;
+}
+.row{
+    display: flex;
+    
+}
+ul{
+    list-style: none;
+    
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin: 50px;
+}
+.footer-col h4{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
 
 /* contact us */
 
@@ -207,31 +235,105 @@ label {
 }
 
 .aboutimg {
-    width: 18%;
+    max-width: 240px;
+    width: 100%;
     float: left;
-    margin: 20px;
+    margin: 2%;
     margin-left: 200px;
 }
 
 .abouttxt {
-    background-color: rgb(198, 213, 241);
-    background: rgb(2, 0, 36);
+    
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 107, 9, 1) 43%, rgba(0, 212, 255, 1) 100%);
     font-size: 18px;
     font-weight: 700;
     font-family: 'EB Garamond', serif;
-    text-shadow: crimson;
     margin-left: 0%;
     padding-top: 100px;
     height: 320px;
 }
 
 .list_css {
-    background-color: rgb(36, 34, 44);
-    background: rgb(34, 36, 0);
+  
     background: linear-gradient(90deg, rgba(34, 36, 0, 1) 0%, rgba(9, 121, 110, 1) 77%, rgba(46, 0, 255, 1) 93%);
     text-align: left;
     font-weight: 800;
     padding: 15px;
     padding-left: 300px;
 }
+#name
+{
+    margin-left: 10px;
+}
+
+/* contact us tab */
+
+section1
+{
+width:90%;
+margin: 43px 16px ;
+display: grid;
+grid-template-rows: 333px  ;
+grid-template-columns: 532px repeat(2,1fr);
+grid-gap: 20px;
+}
+.div1 img
+{
+    border-radius: 10px;
+    height: 333px;
+    width: 532px;
+} 
+.div2
+{
+    border-radius: 10px;
+    background: linear-gradient(118deg, skyblue, grey);
+    text-align: center;
+    color: floralwhite;
+}
+.div3
+{
+    border-radius: 10px;
+    background: linear-gradient(109deg, brown 10%, black 99%);
+    color: floralwhite;
+    text-align: center;
+}
+section2
+{
+    border-radius: 10px;
+    background: linear-gradient(164deg, black, gray,black,gray,black,gray);
+    text-align: center;
+    display: block;
+    
+}
+form
+{
+   padding: 10px; 
+   color:floralwhite;
+}
+label
+{
+    padding-right: 10px;
+}
+input
+{
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+}
+textarea
+{
+    background:gray;
+    /* background-color: gray; */
+    border-radius: 10px;
+    border-color: black;
+}
+button
+{
+    color: floralwhite;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+}
+
+ 
+

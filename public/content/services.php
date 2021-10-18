@@ -18,11 +18,12 @@
                              benefit from, scripting. Here are some examples of website scripting:
                              <br>contact forms  <br>
                              interactive buttons and controls <br>
-                             website databases  <br>
+                             
              
                 </p>
-                      <p style=" margin-left: 60px; margin-top: -15px;  margin-right: 23px;">
-                            shared content between web pages.
+                      <p style=" margin-left: 60px; margin-top: 0px;  margin-right: 23px;">
+                           website databases  <br>
+                           shared content between web pages.
                             <br><br> Web Browsers <br><br>
                            Each web browser renders HTML and CSS in a different way, so you’ll also need to make sure that your website displays and 
                            functions properly in each one. The five most popular web browsers, in order from most to least popular, are:<br>
@@ -54,8 +55,8 @@
      <img class= "appsimg" src="https://o.aolcdn.com/hss/storage/midas/7bd25bbf7e72c03f8fab1c54923f0be8/203656825/Engadget+image+%231.jpg" alt="">
             </div>
             <div class="appstext" >
-                    <p style ="    margin-top: -282px; 
-                           margin-right: 23px; margin-left: 615px; text-align: justify; width: 63%;">
+                    <p style ="    margin-top: -282px;
+                           margin-right: 23px; margin-left: 600px; text-align: justify; width: 60%;">
                            Application software
                            <br> <br>
                            An application program (app or application for short) is a computer program designed to carry out a specific task other than
@@ -128,11 +129,12 @@
 
                           As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate
                           search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which 
-                          search engines are preferred by their targeted audience. SEO is performed because a website will receive more visitors
-                          from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then
-                          potentially be 
+                          search engines are preferred by their targeted audience.
                     </p>
-                    <p  style=" margin-left: 60px; margin-top: -28px;  margin-right: 23px; text-align: justify; width =63%">
+                    <p  style=" margin-left: 60px; margin-top: -20px;  margin-right: 23px; text-align: justify; width =63%">
+                             SEO is performed because a website will receive more visitors
+                             from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then
+                             potentially be  <br> <br>
                              converted into customers. <br> <br>
                              HISTORY
                              <br><br>
