@@ -113,79 +113,9 @@ label {
     font-weight:800;
     font-size: 50px;
     font-family: 'PT Serif', serif;
-    text-align: center
+    text-align: center;
 }
 
-.h1 {
-
-    margin: 5%;
-}
-
-.websiteimg{
-    padding: 5px;
-       font: left;
-       height: 250px;
-       width: 550px;
-       margin-left: 1%;
-    
-}
-.website{
-    width: 100%;
-    padding:20px;
-    text-align: justify;
-}
-
-.websitetext{ 
-    font-size: 20px;
-    width: 100%;
-      
-}
-
-
-.h2 {
-    margin: 5%;
-
-}
-.appsimg{
-    padding: 5px;
-       font: left;
-       height: 250px;
-       width: 550px;
-       margin-left: 1%;
-}
-.apps{
-    width: 50%;
-    padding:20px;
-    text-align: justify;
-}
-
-.apps {
-    height: auto;
-    padding: 20px;
-}
-.appstext{
-    font-size: 20px;
-    width: 100%;
-}
-.h3{
-    margin: 5%;
-}
-.seoimg{
-    padding: 5px;
-       font: left;
-       height: 250px;
-       width: 550px;
-       margin-left: 2%;
-}
-.seo{
-    width: 50%;
-    padding:20px;
-    text-align: justify;
-}
-.seotext{
-    font-size: 20px;
-    width: 100%;
-}
 
 
 
@@ -366,4 +296,14 @@ button
 }
 
  
+@media only screen and (max-width : 600px) 
 
+{
+    .websiteimg{
+        width : 100%;
+    }
+}
+.websitetext{
+    width : 100%;
+
+}
