@@ -62,12 +62,10 @@ a {
     color: black;
 
 }
-.py-5{
+.container-fluid{
     background-color: gray;
    
     margin: -10px;
 }
 
-.nav-item mb-2 a{
-    color: #ffff!important;
-}
+
