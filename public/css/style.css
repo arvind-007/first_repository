@@ -16,16 +16,6 @@ a {
     font-size: 30px;
     text-align: left;
 }
-.h1{
-    font-size: 0%;
-}
-
-@media only screen and (max-width: 1900px) {
-    .websiteimg{
-        font-size: 100px;
-        height: 300px;
-    }
-}
 
 
 
