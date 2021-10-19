@@ -11,13 +11,15 @@ a {
 .services{
     
     color: white;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 43%, rgba(0,212,255,1) 100%);
-    font-weight:800;
-    font-size: 50px;
-    font-family: 'PT Serif', serif;
-    text-align: center;
+    background: rgb(124, 124, 124);
+    font: weight 400px;
+    font-size: 30px;
+    text-align: left;
 }
+.h1{
+    font-size: 0%;
+}
+
 @media only screen and (max-width: 1900px) {
     .websiteimg{
         font-size: 100px;
