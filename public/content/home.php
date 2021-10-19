@@ -1,47 +1,26 @@
-<section>
-    <div class="first_div">
-        Aarambh
-    </div>
-    <center>
-    <div class="circle">
-        <div>
-                <li>
-                    <a href="https://www.microsoft.com/en-in/windows/" class="fab fa-windows fa-5x "></a>
-                </li>
-
-                <p>
-                <h2>Window</h2>
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat
-                voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam
-                odit eveniet at, molestiae quae."
-                </p>
+<img class="container-fluid p-0 " src="./img/homepage.jpg">
+<div class=" container marketing">
+    <div class="row text-center mt-md-5">
+        <div class="col-lg-4">
+            <div class="circle fab fa-windows fa-5x"></div>
+            <h2>Windows</h2>
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit laboriosam
+                explicabo, minus nisi aliquam perspiciatis accusantium dicta, possimus hic libero at fugit dignissimos
+                quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
         </div>
-        <div>
-                <li>
-                    <a href="https://developer.apple.com/ios/" class="fab fa-apple fa-5x "></a>
-                </li>
-
-                <p>
-                <h2>ios</h2>
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat
-                voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam
-                odit
-                eveniet at, molestiae quae."
-                </p>
+        <div class="col-lg-4">
+            <div class="circle fab fa-apple fa-5x"></div>
+            <h2>ios</h2>
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit laboriosam
+                explicabo, minus nisi aliquam perspiciatis accusantium dicta, possimus hic libero at fugit dignissimos
+                quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
         </div>
-        <div>
-                <li>
-                    <a href="https://www.linux.org/" class="fab fa-linux fa-5x "></a>
-                </li>
-                
-                <p>
-                <h2>linux</h2>
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque maxime necessitatibus magni repellat
-                voluptatem laboriosam amet non consequatur facere doloribus atque sunt hic delectus aperiam ut aliquam
-                odit
-                eveniet at, molestiae quae."
-                </p>
+        <div class="col-lg-4">
+            <div class="circle fab fa-linux fa-5x"></div>
+            <h2>Linux</h2>
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit laboriosam
+                explicabo, minus nisi aliquam perspiciatis accusantium dicta, possimus hic libero at fugit dignissimos
+                quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
         </div>
     </div>
-    </center>
-</section>
+</div>
