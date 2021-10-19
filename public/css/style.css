@@ -54,94 +54,52 @@ a {
     padding-top: 25px;
 }
 
-/* contact us */
-.wrapper {
-            height: 100vh;
-            background: #000;
-            background: url("https://i.imgur.com/g63vXfd.jpg");
-            background-size: cover;
-            width: 100%
-        }
 
-        .overlay {
-            width: 100%;
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.8)
-        }
+/*aboutus css*/
 
-        .contact-us {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
+.about_us {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+    font-weight: 800;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
 
-        .contact-us h3,h4 {
-            color: #fff
-        }
+.aboutimg {
+    max-width: 240px;
+    width: 100%;
+    float: left;
+    margin: 2%;
+    margin-left: 200px;
+}
 
-        .contact-us p {
-            color: #fff
-        }
+.abouttxt {
+    
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 107, 9, 1) 43%, rgba(0, 212, 255, 1) 100%);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+    margin-left: 0%;
+    padding-top: 100px;
+    height: 320px;
+}
 
-        .address {
-            margin-top: 14px !important;
-            margin-left: 10px;
-            text-align: left;
-        }
-
-        .address span {
-            
-            color: #7B1FA2
-        }
-
-        .icons {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: #fff;
-            display: inline-block;
-            display: flex;
-            justify-content: center;
-            align-items: center
-        }
-
-        .icons i {
-            font-size: 20px
-        }
-
-        .forms {
-            padding: 20px
-        }
-
-        .inputs input {
-            margin-bottom: 13px;
-            border: none;
-            border-bottom: 2px solid #eee
-        }
-
-        .inputs input:focus {
-            margin-bottom: 13px;
-            border: none;
-            border-bottom: 2px solid #7B1FA2;
-            box-shadow: none
-        }
-
-        .inputs textarea {
-            margin-bottom: 13px;
-            border: none;
-            border-bottom: 2px solid #eee;
-            width: 100%;
-            resize: none
-        }
-
-        .inputs textarea:focus {
-            margin-bottom: 13px;
-            border: none;
-            border-bottom: 2px solid #7B1FA2;
-            box-shadow: none;
-            resize: none
-        }
-
-        .form-control {
-            padding: .375rem .25rem
-        }
-
+.list_css {
+  
+    background: linear-gradient(90deg, rgba(34, 36, 0, 1) 0%, rgba(9, 121, 110, 1) 77%, rgba(46, 0, 255, 1) 93%);
+    text-align: left;
+    font-weight: 800;
+    padding: 15px;
+    padding-left: 300px;
+}
+#name
+{
+    margin-left: 10px;
+}
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
