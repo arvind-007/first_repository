@@ -25,12 +25,11 @@
                             <a href="#" class="text-white">APPS</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">SEARCH ENGINE OPYIMIZATTION</a>
+                            <a href="#" class="text-white">SEARCH ENGINE OPTIMIZATTION</a>
                         </p>
                         
                            
                     </div>
-
                     <hr class="w-100 clearfix d-md-none" />
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
