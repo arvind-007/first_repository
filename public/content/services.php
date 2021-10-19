@@ -1,6 +1,6 @@
 <section class = " services"  > SERVICES </section>
 
-<div class ="centence">
+
        <h1  style=" text-align: center;" >WEBSITE</h1>
        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
        <img  class ="websiteimg " src="https://monsterspost.com/wp-content/uploads/2018/02/free-pesto-cafe-restaurant-website-template.jpg" alt="" style="margin:  auto "   > 
@@ -105,7 +105,7 @@ In 2015, it was reported that Google was developing and promoting mobile search 
 
 </div></div></div>
 
-      </div>
+      
 
 
       
