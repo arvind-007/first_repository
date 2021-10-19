@@ -1,4 +1,4 @@
- header a{
+header a{
      color: white!important;
  }
 
@@ -76,20 +76,9 @@ a {
     margin-left: 1rem!important;
 }
 
-#name
-{
-    margin-left: 10px;
-}
 
 /* contact us page */
-iframe
+.iframe
 {
     border-radius: 20px;
 }
-.btn-warning 
-{
-    color: #000;
-    background-color: #ffc107;
-    border-color: #ffc107;
-}
-
