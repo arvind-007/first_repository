@@ -84,7 +84,7 @@
      <div class=" container marketing">
          <div class="row text-center mt-md-5">
              <div class="col-lg-4">
-                 <div class="circle fab fa-5x"> <img src="./img/Manish.JPG" class="circle" alt=""></div>
+                 <div> <img src="./img/Manish.JPG" class="circle1" alt=""></div>
                  <h2>Manish</h2>
                  <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                      laboriosam
@@ -93,7 +93,7 @@
                      quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
              </div>
              <div class="col-lg-4">
-                 <div class="circle fab  fa-5x"><img src="./img/Deepak.jpeg" class="circle" alt=""></div>
+                 <div><img src="./img/Deepak.jpeg" class="circle1" alt=""></div>
                  <h2>Deepak</h2>
                  <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                      laboriosam
@@ -102,7 +102,7 @@
                      quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
              </div>
              <div class="col-lg-4">
-                 <div class="circle fab  fa-5x"><img src="./img/Piyush.jpg" class="circle" alt=""></div>
+                 <div><img src="./img/Piyush.jpg" class="circle1" alt=""></div>
                  <h2>Piyush</h2>
                  <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                      laboriosam
@@ -112,7 +112,7 @@
              </div>
              <div class="row text-center mt-md-5">
                  <div class="col-lg-4">
-                     <div class="circle fab  fa-5x"><img src="./img/Rahul.jpg" class="circle" alt=""></div>
+                     <div><img src="./img/Rahul.jpg" class="circle1" alt=""></div>
                      <h2>Rahul</h2>
                      <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                          laboriosam
@@ -121,7 +121,7 @@
                          quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
                  </div>
                  <div class="col-lg-4">
-                     <div class="circle fab  fa-5x"><img src="./img/ravi.jpeg" class="circle" alt=""></div>
+                     <div><img src="./img/ravi.jpeg" class="circle1" alt=""></div>
                      <h2>Ravi</h2>
                      <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                          laboriosam
