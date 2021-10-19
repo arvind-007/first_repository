@@ -60,12 +60,13 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="button" class="btn btn-warning">Submit</button>
 </form>
 </div>
 </div>
 </div>
   </section>
+  <center>
 <section class="additional_features mx-5 my-5">
 
 <div class="card" style="width: 18rem;">
@@ -73,16 +74,16 @@
     <h5 class="card-title">Call Us</h5>
     <h6 class="card-subtitle mb-2 text-muted">Phone Number</h6>
     <p class="card-text">Rahul Singh :- 6376538745</p>
-</div></div>
-
-<div class="card" style="width: 18rem; mx-5 ">
+</div></div></section>
+<section class="additional_features_2 mx-5">
+<div class="card" style="width: 18rem; ">
   <div class="card-body ">
     <h5 class="card-title">Our Address</h5>
     <h6 class="card-subtitle mb-2 text-muted"Local Address></h6>
     <p class="card-text">Nawalgarh, Rajasthan (Jhunujhunu) Ghumchakar</p>
 </div>
 </div>
-</section>
+</section></center>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
 
