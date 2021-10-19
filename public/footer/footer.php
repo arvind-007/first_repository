@@ -25,12 +25,11 @@
                             <a href="#" class="text-white">APPS</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">SEARCH ENGINE OPYIMIZATTION</a>
+                            <a href="#" class="text-white">SEARCH ENGINE OPTIMIZATTION</a>
                         </p>
                         
                            
                     </div>
-
                     <hr class="w-100 clearfix d-md-none" />
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
@@ -38,10 +37,10 @@
                             Visit 
                         </h6>
                         <p>
-                            <a href="#" class="text-white"> About us</a>
+                            <a href="http://localhost/first_repository/public/about.php" class="text-white"> About us</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Services</a>
+                            <a href="http://localhost/first_repository/public/services.php" class="text-white">Services</a>
                         </p>
                         <p>
                             <a  href="#" class="text-white">Career</a>
