@@ -49,57 +49,39 @@ a {
     list-style-type: none;
     width: 125px;
     height: 125px;
-    border: 2px solid;
     border-radius: 100%;
-    padding-top: 25px;
 }
 
 
 /*aboutus css*/
 
-.about_us {
-    color: white;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
-    font-weight: 800;
-    font-size: 50px;
-    font-family: 'PT Serif', serif;
+.block-header {
     text-align: center;
-}
-
-.aboutimg {
-    max-width: 240px;
-    width: 100%;
-    float: left;
-    margin: 2%;
-    margin-left: 200px;
-}
-
-.abouttxt {
-    
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 107, 9, 1) 43%, rgba(0, 212, 255, 1) 100%);
-    font-size: 18px;
-    font-weight: 700;
-    font-family: 'EB Garamond', serif;
-    margin-left: 0%;
-    padding-top: 100px;
-    height: 320px;
-}
-
-.list_css {
+  }
   
-    background: linear-gradient(90deg, rgba(34, 36, 0, 1) 0%, rgba(9, 121, 110, 1) 77%, rgba(46, 0, 255, 1) 93%);
-    text-align: left;
-    font-weight: 800;
-    padding: 15px;
-    padding-left: 300px;
-}
-#name
-{
-    margin-left: 10px;
-}
-.btn-warning {
-    color: #000;
-    background-color: #ffc107;
-    border-color: #ffc107;
+  .block-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .block-subheading {
+    margin-top: 0;
+    margin-bottom: 70px;
+   
+    @media (min-width: 1100px) {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    @media (max-width: 1000px){
+        font-size: 1.125rem;
+        line-height: 1.44;
+        font-weight: 500;
+    }
+  }
+  
+  .me-md-3 {
+    margin-right: 1rem!important;
+    margin-left: 1rem!important;
 }
