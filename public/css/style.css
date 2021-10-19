@@ -1,52 +1,11 @@
-body {
-    background-color: white;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
-header {
-    background: #2e2c2a;
-    height: 30px;
-    color: #fff;
-}
-
-header .logo {
-    width: 100px;
-    text-transform: uppercase;
-    float: left;
-    margin: 5px;
-}
+ header a{
+     color: white!important;
+ }
 
 a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
-header a {
-    color: #fff;
-}
-
-header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-header ul li {
-    float: left;
-    margin: 5px;
-    padding: 2px;
-    font-size: 12px;
-}
-
-header .auth-menu {
-    float: right;
-}
-
-header .auth-menu {
-    float: right;
-}
 *{
     padding: 0px;
     margin: 0px;
@@ -84,131 +43,37 @@ ul{
     font-weight:800;
     font-size: 50px;
     font-family: 'PT Serif', serif;
-    text-align: center
+    text-align: center;
 }
-
-.h1 {
-
-    margin: 5%;
+@media only screen and (max-width: 1900px) {
+    .websiteimg{
+        font-size: 100px;
+        height: 300px;
+    }
 }
-
-.websiteimg{
-    padding: 5px;
-       font: left;
-       height: 250px;
-       width: 550px;
-       margin-left: 1%;
-    
-}
-.website{
-    width: 100%;
-    padding:20px;
-    text-align: justify;
-}
-
-.websitetext{ 
-    font-size: 20px;
-    width: 100%;
-      
-}
-
-
-.h2 {
-    margin: 5%;
-
-}
-.appsimg{
-    padding: 5px;
-       font: left;
-       height: 250px;
-       width: 550px;
-       margin-left: 1%;
-}
-.apps{
-    width: 50%;
-    padding:20px;
-    text-align: justify;
-}
-
-.apps {
-    height: auto;
-    padding: 20px;
-}
-.appstext{
-    font-size: 20px;
-    width: 100%;
-}
-.h3{
-    margin: 5%;
-}
-.seoimg{
-    padding: 5px;
-       font: left;
-       height: 250px;
-       width: 550px;
-       margin-left: 2%;
-}
-.seo{
-    width: 50%;
-    padding:20px;
-    text-align: justify;
-}
-.seotext{
-    font-size: 20px;
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* home page */
 
-.first_div {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(-12deg, black 50%, orange 30%);
-    font-size: 100px;
-    font-family: cursive;
+@media only screen and (max-width: 1900px) {
+    .banner{
+        font-size: 100px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .banner{
+        font-size: 40px;
+        height: 100px;
+    }
 }
 
-.circle {
-    height: 400px;
-}
 
-.circle div {
-    margin: 3% 2%;
-    float: left;
-    width: 29%;
-}
-
-.circle li {
+.circle{
     list-style-type: none;
     width: 125px;
-    height: 100px;
+    height: 125px;
     border: 2px solid;
     border-radius: 100%;
     padding-top: 25px;
