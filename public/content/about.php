@@ -13,8 +13,13 @@
                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                      <div class="col">
                          <div class="card shadow-sm">
-                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZFbpgAbzDYnWivH8RfCrg2LjXzkPs1gEHQ&usqp=CAU"
-                                 alt="">
+                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                 preserveAspectRatio="xMidYMid slice" focusable="false">
+                                 <title>Quaities</title>
+                                 <rect width="100%" height="100%" fill="#6D7B8D" /><text x="40%" y="50%" fill="#eceeef"
+                                     dy=".3em">Aarambh</text>
+                             </svg>
                              <div class="card-body">
                                  <p class="card-text">This is a wider card with supporting text below as a natural
                                      lead-in
@@ -26,8 +31,13 @@
                      </div>
                      <div class="col">
                          <div class="card shadow-sm">
-                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZFbpgAbzDYnWivH8RfCrg2LjXzkPs1gEHQ&usqp=CAU"
-                                 alt="">
+                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                 preserveAspectRatio="xMidYMid slice" focusable="false">
+                                 <title>Qualities</title>
+                                 <rect width="100%" height="100%" fill="#6D7B8D" /><text x="40%" y="50%" fill="#eceeef"
+                                     dy=".3em">Aarambh</text>
+                             </svg>
 
                              <div class="card-body">
                                  <p class="card-text">This is a wider card with supporting text below as a natural
@@ -41,8 +51,13 @@
                      </div>
                      <div class="col">
                          <div class="card shadow-sm">
-                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQZFbpgAbzDYnWivH8RfCrg2LjXzkPs1gEHQ&usqp=CAU"
-                                 alt="">
+                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                 preserveAspectRatio="xMidYMid slice" focusable="false">
+                                 <title>Qualities</title>
+                                 <rect width="100%" height="100%" fill="#6D7B8D" /><text x="40%" y="50%" fill="#eceeef"
+                                     dy=".3em">Aarambh</text>
+                             </svg>
 
                              <div class="card-body">
                                  <p class="card-text">This is a wider card with supporting text below as a natural
@@ -69,7 +84,7 @@
      <div class=" container marketing">
          <div class="row text-center mt-md-5">
              <div class="col-lg-4">
-                 <div class="circle fab fa-5x"> <img src="./img/Manish.JPG" class="circle" alt=""></div>
+                 <div> <img src="./img/Manish.JPG" class="circle1" alt=""></div>
                  <h2>Manish</h2>
                  <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                      laboriosam
@@ -78,7 +93,7 @@
                      quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
              </div>
              <div class="col-lg-4">
-                 <div class="circle fab  fa-5x"><img src="./img/Deepak.jpeg" class="circle" alt=""></div>
+                 <div><img src="./img/Deepak.jpeg" class="circle1" alt=""></div>
                  <h2>Deepak</h2>
                  <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                      laboriosam
@@ -87,7 +102,7 @@
                      quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
              </div>
              <div class="col-lg-4">
-                 <div class="circle fab  fa-5x"><img src="./img/Piyush.jpg" class="circle" alt=""></div>
+                 <div><img src="./img/Piyush.jpg" class="circle1" alt=""></div>
                  <h2>Piyush</h2>
                  <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                      laboriosam
@@ -97,7 +112,7 @@
              </div>
              <div class="row text-center mt-md-5">
                  <div class="col-lg-4">
-                     <div class="circle fab  fa-5x"><img src="./img/Rahul.jpg" class="circle" alt=""></div>
+                     <div><img src="./img/Rahul.jpg" class="circle1" alt=""></div>
                      <h2>Rahul</h2>
                      <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                          laboriosam
@@ -106,7 +121,7 @@
                          quos ipsum iure culpa corrupti tempore ad facilis. Dolores, eaque voluptate!"</p>
                  </div>
                  <div class="col-lg-4">
-                     <div class="circle fab  fa-5x"><img src="./img/ravi.jpeg" class="circle" alt=""></div>
+                     <div><img src="./img/ravi.jpeg" class="circle1" alt=""></div>
                      <h2>Ravi</h2>
                      <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere eveniet impedit
                          laboriosam

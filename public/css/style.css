@@ -1,14 +1,13 @@
- header a{
+ header a {
      color: white!important;
  }
-
-a {
-    text-decoration: none!important;
-}
-
-
-/* services */
-.services{
+ 
+ a {
+     text-decoration: none!important;
+ }
+ /* services */
+ 
+ .services{
     
     color: white;
     background: rgb(124, 124, 124);
@@ -16,40 +15,88 @@ a {
     font-size: 30px;
     text-align: left;
 }
-.h1{
-    font-size: 0%;
+ /* home page */
+ 
+ .circle {
+     width: 125px;
+     height: 125px;
+     border: 2px solid;
+     border-radius: 100%;
+     padding-top: 25px;
+ }
+ 
+ /* contact us */
+ 
+ iframe
+{
+    border-radius: 20px;
 }
+ /* footer */
+ 
+ .address {
+     margin-top: 14px !important;
+     margin-left: 10px;
+     text-align: left;
+ }
+ 
+ .address span {
+     color: #7B1FA2
+ }
+ 
+ .icons {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background-color: #fff;
+     display: inline-block;
+     display: flex;
+     justify-content: center;
+     align-items: center
+ }
+ 
+ .icons i {
+     font-size: 20px
+ }
+ 
+ .forms {
+     padding: 20px
+ }
+ 
+ .inputs input {
+     margin-bottom: 13px;
+     border: none;
+     border-bottom: 2px solid #eee
+ }
+ 
+ .inputs input:focus {
+     margin-bottom: 13px;
+     border: none;
+     border-bottom: 2px solid #7B1FA2;
+     box-shadow: none
+ }
+ 
+ .inputs textarea {
+     margin-bottom: 13px;
+     border: none;
+     border-bottom: 2px solid #eee;
+     width: 100%;
+     resize: none
+ }
+ 
+ .inputs textarea:focus {
+     margin-bottom: 13px;
+     border: none;
+     border-bottom: 2px solid #7B1FA2;
+     box-shadow: none;
+     resize: none
+ }
+ 
+ .form-control {
+     padding: .375rem .25rem
+ }
 
-@media only screen and (max-width: 1900px) {
-    .websiteimg{
-        font-size: 100px;
-        height: 300px;
-    }
-}
-
-
-
-/* home page */
-
-@media only screen and (max-width: 1900px) {
-    .banner{
-        font-size: 100px;
-        height: 300px;
-    }
-}
-@media only screen and (max-width: 800px) {
-    .banner{
-        font-size: 40px;
-        height: 100px;
-    }
-}
-
-
-.circle{
-    list-style-type: none;
-    width: 125px;
-    height: 125px;
-    border-radius: 100%;
+a {
+    text-decoration: none!important;
 }
 
 
@@ -80,16 +127,18 @@ a {
         font-weight: 500;
     }
   }
+
+  .circle1{
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+}
   
   .me-md-3 {
     margin-right: 1rem!important;
     margin-left: 1rem!important;
 }
 
-#name
-{
-    margin-left: 10px;
-}
 
 /* contact us page */
 iframe
