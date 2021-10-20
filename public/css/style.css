@@ -5,8 +5,26 @@
  a {
      text-decoration: none!important;
  }
+
+ /* login_modal */
+ .inputvalues{
+  	font-size: 20px;
+  	padding: 8px 0;
+  	margin: 8px 0;
+  	border-bottom: 1px solid black;
+}
+
+
+.inputvalues input{
+    outline: none;
+	border : none;
+    width: 83%;
+	color: black;
+	font-size: 18px;
+    margin : 0 10px;
+}
+
  /* services */
- 
  .services{
     
     color: white;

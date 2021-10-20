@@ -18,9 +18,11 @@
             </form>
 
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#exampleModalToggle"
+                    data-bs-toggle="modal">Login</button>
                 <button type="button" class="btn btn-warning">Sign-up</button>
             </div>
         </div>
     </div>
 </header>
+<?php include("./modal/login_modal.php"); ?>
