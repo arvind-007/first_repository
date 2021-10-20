@@ -1,23 +1,6 @@
-<section class="services  row">
-
-    <div class="col-sm-6 col-lg-4 mb-4   ">
+<section class="services row">
+    <div class="col-sm-6  col-md-4 col-lg-4   ">
         <h1 style="margin-left:30%;">SERVICES</h1>
-    </div>
-    <div class="col-sm-6 col-lg-4 mb-4   ">
-
-
-        <h2 style="    text-align: end;  margin-right: -50%">
-            <a href="http://localhost/first_repository/public/index.php">Home</a>
-
-            <i class="bi bi-chevron-right"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-            </svg>
-
-            <a href="http://localhost/first_repository/public/about.php">About-Us</a>
-        </h2>
-    </div>
     </div>
 </section>
 <div class="container ">

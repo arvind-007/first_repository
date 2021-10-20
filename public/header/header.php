@@ -27,4 +27,4 @@
     </div>
 </header>
 <?php include("./modal/login_modal.php"); ?>
-<?php include("./modal/sign_up.php");?>
+<?php include("./modal/sign_up.php"); include("./modal/forgot_password.php") ?>
