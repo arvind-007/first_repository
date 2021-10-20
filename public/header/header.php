@@ -18,15 +18,13 @@
             </form>
 
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#exampleModalToggle"
+                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#login"
                     data-bs-toggle="modal">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
                 <button type="button" class="btn btn-warning" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">Sign-up</button>
+                    data-bs-target="#signUp">Sign-up</button>
             </div>
         </div>
     </div>
 </header>
 <?php include("./modal/login_modal.php"); ?>
-<?php include("./modal/sing_up.php");?>
+<?php include("./modal/sign_up.php");?>
