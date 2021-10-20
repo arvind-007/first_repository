@@ -1,3 +1,6 @@
+<section class="contact_us">
+<h style="margin-left: 197px;">CONTACT</h>
+</section>
 <section class="main_heading my-5">
     <div class="text-center">
         <h1 class="display-4">Contact Us</h1>

@@ -42,7 +42,7 @@
 </div>
 
 <!-- circle division -->
-<div class=" container marketing">
+<div class=" container marketing ">
     <div class="row text-center mt-md-5">
         <div class="col-lg-4">
             <div class="circle fab fa-windows fa-5x"></div>
@@ -72,47 +72,23 @@
 </div>
 
 <!-- cards division -->
-<div class="container my-5">
+<div class="container my-5 text-center">
     <div class="row">
-        <div class="col-3"> <img src="./img/img4.jpg" class="img-fluid rounded"></div>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4"> <img src="./img/img4.jpg" class="img-fluid rounded"></div>
+        <div class="col-sm-12 col-md-4">
             <h1 class=" display-4 fw-normal">Punny headline</h1>
             <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with
                 this
                 example based on Apple’s marketing pages.</p>
             <a class="btn btn-outline-secondary" href="#">Coming soon</a>
         </div>
-        <div class="col-7"></div>
+        <div class="col-sm-12 col-md-4"><img src="./img/img6.jpg" class="img-fluid rounded"></div>
     </div>
 </div>
 
-
-<div class="row container mb-5">
-    <div class="col-3"></div>
-    <div class="col"> <img src="./img/img5.jpg" class="img-fluid rounded"></div>
-    <div class="col-5">
-        <h1 class=" display-4 fw-normal">Punny headline</h1>
-        <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with
-            this
-            example based on Apple’s marketing pages.</p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-    </div>
-</div>>
-
-<div class="row container mb-5">
-    <div class="col-6"></div>
-    <div class="col-3"> <img src="./img/img6.jpg" class="img-fluid rounded"></div>
-    <div class="col-3">
-        <h1 class=" display-4 fw-normal">Punny headline</h1>
-        <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with
-            this example based on Apple’s marketing pages.</p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-    </div>
-</div>>
-
 <!-- testimonial division -->
 <div class="container mb-5">
-    <h1 class="fa fa-star">review</h1>
+    <h1>Review</h1>
     <div class="row g-2">
         <div class="col-md-4">
             <div class="card p-3 text-center px-4">
