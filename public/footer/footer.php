@@ -19,13 +19,13 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold"> Our Services</h6>
                         <p>
-                        <a href="#" class="text-white">WEBSITE</a>
+                        <a href="#" class="text-white">Website</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">APPS</a>
+                            <a href="#" class="text-white">Apps</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">SEARCH ENGINE OPTIMIZATTION</a>
+                            <a href="#" class="text-white">Search engine optimization</a>
                         </p>
                         
                            
@@ -85,7 +85,7 @@
                 </div>
         </div>
     </footer>
-</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 </script>
