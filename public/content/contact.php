@@ -1,5 +1,5 @@
 <section class="contact_us">
-<h style="margin-left: 197px;">CONTACT</h>
+    <h style="margin-left: 197px;">CONTACT</h>
 </section>
 <section class="main_heading my-5">
     <div class="container1">
@@ -10,30 +10,39 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
-            <div class="col">
+            <div class="col ps-4">
                 <form>
-                    <div class="col-xxl-3 col-10  col-md-8 mx-auto">
-                        <div class="mb-3">
+                    <div class="col">
+                        <div class="mb-3 ">
                             <label for="exampleInputPassword1" class="form-label">Name</label>
                             <div class="input-group flex-nowrap">
                                 <span class="input-group-text" id="addon-wrapping"><i class="fas fa-user"></i></span>
                                 <input type="text" class="form-control" placeholder="Username" aria-label="Username"
                                     aria-describedby="addon-wrapping">
                             </div>
-                            </div>
+                        </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                            <span class="input-group-text" id="addon-wrapping"><i class="far fa-envelope"></i></span>
-                            <input type="text" class="form-control" placeholder="....@gmil.com" aria-label="Username"
-                                aria-describedby="addon-wrapping">
-                        </div>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        <div class="mb-3 my-4">
-                            
-                        <button type="button" class="btn btn-warning"> Submit</button>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">
+                                    <i class="far fa-envelope"></i></span>
+                                <input type="text" class="form-control" placeholder="....@gmil.com"
+                                    aria-label="Username" aria-describedby="addon-wrapping">
+                            </div>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+
+                            <div class="mb-3 my-4">
+
+                                <button type="button" class="btn btn-warning">Submit</button>
+                            </div>
                         </div>
                     </div>
-                  </form>
+                </form>
+            </div>
         </div>
     </div>
 </section>
