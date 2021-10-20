@@ -1,4 +1,4 @@
-<div class="modal fade" id="login" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+<!-- <div class="modal fade" id="forgot-password" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -22,6 +22,29 @@
             <div class="modal-footer">
                 <button class="btn btn-outline-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
                     data-bs-dismiss="modal">Login</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="modal fade" id="forgot-password" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Forgot Password</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mx-5">
+                <div class="mb-3">
+                    <div class="inputvalues">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Enter your email">
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-outline-dark">Submit</button>
             </div>
         </div>
     </div>
