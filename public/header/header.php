@@ -19,8 +19,9 @@
 
             <div class="text-end">
                 <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign-up</button>
             </div>
         </div>
     </div>
 </header>
+<?php include("./modal/sing_up.php");?>
