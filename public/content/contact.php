@@ -13,36 +13,59 @@
             <div class="col ps-4">
                 <form>
                     <div class="col">
-                        <div class="mb-3 ">
-                            <label for="exampleInputPassword1" class="form-label">Name</label>
-                            <div class="input-group flex-nowrap">
-                                <span class="input-group-text" id="addon-wrapping"><i class="fas fa-user"></i></span>
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                    aria-describedby="addon-wrapping">
+                        <div class="modal-body mx-5">
+                            <div class="mb-3">
+                                <div class="inputvalues">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" placeholder="Name">
+                                </div>
                             </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                            <div class="input-group flex-nowrap">
-                                <span class="input-group-text" id="addon-wrapping">
-                                    <i class="far fa-envelope"></i></span>
-                                <input type="text" class="form-control" placeholder="....@gmil.com"
-                                    aria-label="Username" aria-describedby="addon-wrapping">
-                            </div>
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div class="modal-body mx-5">
                             <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                <div class="inputvalues">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="text" placeholder="Enter your email">
+                                </div>
                             </div>
+                        </div>
 
-                            <div class="mb-3 my-4">
-
-                                <button type="button" class="btn btn-warning">Submit</button>
+                        <div class="modal-body mx-5">
+                            <div class="mb-3">
+                                <div class="inputvalues">
+                                    <input type="textarea" placeholder="Enter an message">
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary" type="button"
+                                style="background-color:gray; border-color:gray;">Button</button>
                         </div>
                     </div>
-                </form>
             </div>
+            </form>
+        </div>
+        <div class="row">
+
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem; margin: auto;margin-top: 28px;">
+                <div class="card-header">Contact Us</div>
+                <div class="card-body">
+                    <h5 class="card-title">Rahul Singh</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem; margin: auto;margin-top: 28px;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Dark card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
