@@ -18,7 +18,7 @@
             </form>
 
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#login"
+                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#btnLogin"
                     data-bs-toggle="modal">Login</button>
                 <button type="button" class="btn btn-warning" data-bs-toggle="modal"
                     data-bs-target="#signUp">Sign-up</button>
