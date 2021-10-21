@@ -1,5 +1,7 @@
-<section class="contact_us">
-<h style="margin-left: 197px;">CONTACT</h>
+<section class="services row">
+    <div class="col-sm-6  col-md-4 col-lg-4   ">
+        <h1 style="margin-left:30%;">CONTACT</h1>
+    </div>
 </section>
 <section class="main_heading my-5">
     <div class="container1">
@@ -10,31 +12,67 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
-            <div class="col">
+            <div class="col ps-4">
                 <form>
-                    <div class="col-xxl-3 col-10  col-md-8 mx-auto">
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Name</label>
-                            <div class="input-group flex-nowrap">
-                                <span class="input-group-text" id="addon-wrapping"><i class="fas fa-user"></i></span>
-                                <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                                    aria-describedby="addon-wrapping">
+                    <div class="col">
+                        <div class="modal-body mx-5">
+                            <div class="mb-3">
+                                <div class="inputvalues">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" placeholder="Name">
+                                </div>
                             </div>
-                            </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email Address</label>
-                            <span class="input-group-text" id="addon-wrapping"><i class="far fa-envelope"></i></span>
-                            <input type="text" class="form-control" placeholder="....@gmil.com" aria-label="Username"
-                                aria-describedby="addon-wrapping">
                         </div>
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        <div class="mb-3 my-4">
-                            
-                        <button type="button" class="btn btn-warning"> Submit</button>
+                        <div class="modal-body mx-5">
+                            <div class="mb-3">
+                                <div class="inputvalues">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="text" placeholder="Enter your email">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-body mx-5">
+                            <div class="mb-3">
+                                <div class="inputvalues">
+                                    <input type="textarea" placeholder="Enter an message">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button type="button" class="btn btn-outline-dark"
+                                style=" width: 85px; margin-left: 96px;">Sign Up</button>
                         </div>
                     </div>
-                  </form>
+            </div>
+            </form>
         </div>
+        <div class="container" style="margin-top: 30px;">
+            <div class="row">
+                <div class="col " style="text-align: center;padding-left:217px;">
+                    <div class="card text-white bg-dark " style="max-width: 18rem; margin-top: 28px;">
+                        <div class="card-header" style="background-color:black;">Contact Us</div>
+                        <div class="card-body" style="background-color:gray;">
+
+                            <p class="card-text">Rahul Singh :- 6376538745</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="text-align:center; ">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem; margin-top: 28px;">
+                        <div class="card-header" style="color:white;  background-color:black;">
+                            Address</div>
+                        <div class="card-body" style="background-color:gray">
+
+                            <p class="card-text">Nawalgarh,Rajasthan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     </div>
 </section>
 
