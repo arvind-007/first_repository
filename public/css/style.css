@@ -5,6 +5,7 @@
  a {
      text-decoration: none!important;
  }
+ .dropdown-menu a:hover {background-color: black;}
 
  /* login_modal */
  .inputvalues{
@@ -13,6 +14,7 @@
   	margin: 8px 0;
   	border-bottom: 1px solid black;
 }
+
 
 
 .inputvalues input{
