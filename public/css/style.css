@@ -62,12 +62,6 @@
      padding-top: 25px;
  }
  
- /* contact us */
- 
- iframe
-{
-    border-radius: 20px;
-}
  /* footer */
  
  .address {
@@ -177,17 +171,5 @@ a {
 }
 
 
-/* contact us page */
-iframe
-{
-    border-radius: 20px;
-}
-.contact_us
- {
-    color: white;
-    background: rgb(124, 124, 124);
-    font: weight 400px;
-    font-size: 30px;
-    text-align: left;
-}
+
 
