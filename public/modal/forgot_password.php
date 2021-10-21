@@ -30,21 +30,27 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Forgot Password</h5>
+                <h5 class="modal-title" id="exampleModalToggleLabel">Forgot Password</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body mx-5">
                 <div class="mb-3">
                     <div class="inputvalues">
-                        <i class="fas fa-envelope"></i>
-                        <input type="text" placeholder="Enter your email">
+                        <i class="fas fa-password"></i>
+                        <input type="password" placeholder="Enter your new password">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="inputvalues">
+                        <i class="fas fa-password"></i>
+                        <input type="password" placeholder="Re-enter your new password">
                     </div>
                 </div>
             </div>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-outline-dark">Submit</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                    data-bs-target="#signUp">Submit</button>
             </div>
         </div>
     </div>

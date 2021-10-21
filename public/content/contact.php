@@ -1,5 +1,7 @@
-<section class="contact_us">
-    <h style="margin-left: 197px;">CONTACT</h>
+<section class="services row">
+    <div class="col-sm-6  col-md-4 col-lg-4   ">
+        <h1 style="margin-left:30%;">CONTACT</h1>
+    </div>
 </section>
 <section class="main_heading my-5">
     <div class="container1">
@@ -39,34 +41,38 @@
                         </div>
 
                         <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" type="button"
-                                style="background-color:gray; border-color:gray;">Button</button>
+                            <button type="button" class="btn btn-outline-dark"
+                                style=" width: 85px; margin-left: 96px;">Sign Up</button>
                         </div>
                     </div>
             </div>
             </form>
         </div>
-        <div class="row">
+        <div class="container" style="margin-top: 30px;">
+            <div class="row">
+                <div class="col " style="text-align: center;padding-left:217px;">
+                    <div class="card text-white bg-dark " style="max-width: 18rem; margin-top: 28px;">
+                        <div class="card-header" style="background-color:black;">Contact Us</div>
+                        <div class="card-body" style="background-color:gray;">
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem; margin: auto;margin-top: 28px;">
-                <div class="card-header">Contact Us</div>
-                <div class="card-body">
-                    <h5 class="card-title">Rahul Singh</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                            <p class="card-text">Rahul Singh :- 6376538745</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="card text-white bg-dark mb-3" style="max-width: 18rem; margin: auto;margin-top: 28px;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Dark card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                <div class="col" style="text-align:center; ">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem; margin-top: 28px;">
+                        <div class="card-header" style="color:white;  background-color:black;">
+                            Address</div>
+                        <div class="card-body" style="background-color:gray">
+
+                            <p class="card-text">Nawalgarh,Rajasthan</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
+    </div>
     </div>
 </section>
 
