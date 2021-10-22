@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Company name
+                          Aarambh
                         </h6>
                         <p>
                             Here you can use rows and columns to organize your footer
@@ -25,7 +25,7 @@
                             <a href="#" class="text-white">Apps</a>
                         </p>
                         <p>
-                            <a href="#" class="text-white">Search engine optimization</a>
+                            <a href="#" class="text-white">SEO</a>
                         </p>
 
 
