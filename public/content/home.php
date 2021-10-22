@@ -88,7 +88,7 @@
 
 <!-- testimonial division -->
 <div class="container mb-5">
-    <h1>Review</h1>
+    <h1 class="text-center">Review</h1>
     <div class="row g-2">
         <div class="col-md-4">
             <div class="card p-3 text-center px-4">

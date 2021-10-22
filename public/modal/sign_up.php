@@ -1,12 +1,17 @@
+
 <div class="modal fade" id="signUp" tabindex="-1" aria-labelledby="exampleModalToggleLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
+           
             <div class="modal-header">
                 <h5 class="modal-title">Register Now</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+           
             <div class="modal-body mx-5">
+            <form>
                 <div class="name row">
+                
                     <div class="col mx-1">
                         <input name="username" type="text" placeholder="first name" required><br>
                     </div>
@@ -44,8 +49,38 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-outline-dark">Sign Up</button>
+                <button type="submit" class="btn btn-outline-dark">Sign Up</button>
             </div>
         </div>
     </div>
 </div>
+</form>
+<script>
+  (function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+
+
+
+</script>
