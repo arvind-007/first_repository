@@ -37,7 +37,7 @@
                 <div class="mb-3">
                     <div class="inputvalues">
                         <i class="fas fa-envelope"></i>
-                        <input type="text" placeholder="Enter your email">
+                        <input type="text" placeholder="e-mail">
                     </div>
 
                     <div class="modal-footer">

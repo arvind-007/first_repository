@@ -1,4 +1,4 @@
-<section class="services row">
+<section class="services">
     <div class="col-sm-6  col-md-4 col-lg-4   ">
         <h1 style="margin-left:30%;">SERVICES</h1>
 
@@ -21,7 +21,7 @@
 
                 <a type="a" data-bs-toggle="collapse" data-bs-target="#collapse" aria-controls="collapseOne  "
                     style="border-radius: 1.3rem!important;  text-align: end; padding: 5%;     color: #282829;">
-                    learn move
+                    learn more
                 </a>
                 </h2>
                 <div id="collapse" class="accordion-collapse collapse " aria-labelledby="headingOne"
@@ -49,7 +49,7 @@
 
                 <a type="a" data-bs-toggle="collapse" data-bs-target="#collapseone" aria-controls="collapseOne  "
                     style="border-radius: 1.3rem!important;  text-align: end; padding: 5%; color: #282829; ">
-                    learn move
+                    learn more...
                 </a>
                 </h2>
                 <div id="collapseone" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -75,7 +75,7 @@
                 </p>
                 <a type="a" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne  "
                     style="border-radius: 1.3rem!important;  text-align: end; padding: 5%;  color: #282829;">
-                    learn move
+                    learn more
                 </a>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
@@ -139,7 +139,16 @@
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 </div>
-<!-- Button trigger modal -->
+
+
+
+
+
+
+
+
+
+<!-- Button trigger modal 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Login
 </button>
@@ -168,4 +177,60 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
+
+
+
+
+
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+</button>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="inputvalues">
+
+                        <input name="First Name" type="First Name" placeholder="First Name" required><br>
+                        <div class="invalid-feedback">
+                            Please provide a first name.
+                        </div>
+                    </div>
+                    <div class="inputvalues">
+                        <input name="First Name" type="First Name" placeholder="First Name" required><br>
+                        <div class="invalid-feedback">
+                            Please provide a last name.
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div> -->

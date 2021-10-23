@@ -12,7 +12,7 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
                 </iframe>
             </div>
-            <div class="col ps-4">
+            <div class=" g-3 col ps-4">
                 <form>
                     <div class="col">
                         <div class="modal-body mx-5">
@@ -39,10 +39,10 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="d-grid gap-2 col-6 mx-auto">
-                            <button type="button" class="btn btn-outline-dark"
-                                style=" width: 85px; margin-left: 96px;">Sign Up</button>
+                            <button type="button" type="submit" class="btn btn-outline-dark"
+                                style=" width: 85px; margin-left: 96px;">Sign
+                                Up</button>
                         </div>
                     </div>
             </div>
@@ -73,7 +73,7 @@
 
         </div>
     </div>
-    </div>
+
 </section>
 
 

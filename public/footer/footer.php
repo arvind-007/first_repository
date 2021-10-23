@@ -19,7 +19,7 @@
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold"> Our Services</h6>
                         <p>
-                        <a href="#" class="text-white">Website</a>
+                            <a href="#" class="text-white">Website</a>
                         </p>
                         <p>
                             <a href="#" class="text-white">Apps</a>
@@ -27,23 +27,25 @@
                         <p>
                             <a href="#" class="text-white">SEO</a>
                         </p>
-                        
-                           
+
+
                     </div>
                     <hr class="w-100 clearfix d-md-none" />
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Visit 
+                            Visit
                         </h6>
                         <p>
-                            <a href="http://localhost/first_repository/public/about.php" class="text-white"> About us</a>
+                            <a href="http://localhost/first_repository/public/about.php" class="text-white"> About
+                                us</a>
                         </p>
                         <p>
-                            <a href="http://localhost/first_repository/public/services.php" class="text-white">Services</a>
+                            <a href="http://localhost/first_repository/public/services.php"
+                                class="text-white">Services</a>
                         </p>
                         <p>
-                            <a  href="#" class="text-white">Career</a>
+                            <a href="#" class="text-white">Career</a>
                         </p>
                         <p>
                             <a href="#" class="text-white">Help</a>
@@ -54,8 +56,10 @@
 
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p><a href="https://goo.gl/maps/hz6JRiMAcDy6M8ju5"  class="fas fa-home mr-3 text-white"></i> NAWALGARH,RAJASTHAN</a> </p>
-                        <p><a href="https://mail.google.com/" class="fas fa-envelope mr-3 text-white"></i> Aarambh@gmail.com</a> </p>
+                        <p><a href="https://goo.gl/maps/hz6JRiMAcDy6M8ju5" class="fas fa-home mr-3 text-white"></i>
+                                NAWALGARH,RAJASTHAN</a> </p>
+                        <p><a href="https://mail.google.com/" class="fas fa-envelope mr-3 text-white"></i>
+                                Aarambh@gmail.com</a> </p>
                         <p><i class="fas fa-phone mr-3"></i>+91-9782447604</p>
                         <p><i class="fas fa-print mr-3"></i>+91-9782447604 </p>
                     </div>
@@ -86,9 +90,31 @@
         </div>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict'
 
-</html>
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+    </script>
+    </body>
+
+    </html>
