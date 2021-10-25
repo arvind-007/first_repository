@@ -14,8 +14,6 @@
   	margin: 8px 0;
 }
 
-
-
 .inputvalues input{
     outline: none;
 	border : none;
@@ -23,6 +21,7 @@
 	font-size: 18px;
     margin : 0 10px;
   	border-bottom: 1px solid black;
+      background: transparent;
 }
 
 .inputvalues i{
