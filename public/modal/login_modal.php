@@ -8,7 +8,8 @@
                 <h5 class="modal-title" id="exampleModalToggleLabel">Login here</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form method="post">
+            <form method="post" id="frm-login" action="login.php">
+                <div class="alert alert-danger" id="error-msg" style="display:none;"></div>
                 <div class="modal-body mx-5">
 
                     <div class="inputvalues input-group">
@@ -22,10 +23,10 @@
                         <input name="password" type="password" placeholder="Password" class="form-control" required><br>
                     </div>
                     <span style="cursor:pointer">Forget password</span>
-
+                    <input type="hidden" name="form_name" value="login">
                 </div>
                 <div class="modal-footer">
-                    <input name="login" class="btn btn-outline-dark" type="submit" value="login"></input>
+                    <button class="btn btn-primary" id="btn-login">Submit</button>
                 </div>
             </form>
         </div>

@@ -1,20 +1,6 @@
 <?php
-$base_url = 'localhost/first_repository/public/';\
+$base_url = 'localhost/first_repository/public/';
 session_start();
-include "./dbconfig/config.php";
-if (isset($_POST["login"])) {
-    $username = $_POST["username"];
-    $password = $_POST["password"];
-    $query = "select * from users WHERE Username = '$username' AND Password = '$password'";
-    $query_run = mysqli_query($con, $query);
-    if (mysqli_num_rows($query_run) > 0) {
-        $_SESSION['username'] = $username;
-    } else {
-        echo '<script>alert("Wrong username or password!")</script>';
-    }
-} else if (isset($_POST["logout"])) {
-    unset($_SESSION['username']);
-}
 ?>
 
 <header class="p-3 bg-dark text-white">
@@ -36,16 +22,11 @@ if (isset($_POST["login"])) {
             </form>
             <div class="text-end">
 
-                <?php
-if (isset($_SESSION['username'])) {
-    ?>
+                <?php if (isset($_SESSION['username'])) { ?>
                 <form method="post">
                     <input type="submit" name="logout" class="btn btn-outline-light me-2" value="Log Out"></input>
                 </form>
-                <?php
-echo $_SESSION['username'];
-} else {
-    ?>
+                <?php echo $_SESSION['username']; } else { ?>
                 <button type="button" class="btn btn-outline-light me-2" data-bs-target="#btnLogin"
                     data-bs-toggle="modal">Login</button>
                 <button type="button" class="btn btn-warning" data-bs-toggle="modal"
