@@ -1,31 +1,34 @@
 <?php
 $base_url = 'localhost/first_repository/public/';
 session_start();
-$con = mysqli_connect("localhost","root","") ;
-mysqli_select_db($con,"logindb") ;
+include "dbconfig/config.php";
 
-
-//Check if form posted 
-$form = isset($_POST["form_name"]) && $_POST["form_name"] ? $_POST["form_name"]: false;
-switch($form){
-    case "login": 
-        //login user here 
+//Check if form posted
+$form = isset($_POST["form_name"]) && $_POST["form_name"] ? $_POST["form_name"] : false;
+switch ($form) {
+    case "login":
+        //login user here
         login($con);
+        break;
     case "register":
         // register user here
         register();
+        break;
     case "forget_password":
-        //reset password here 
+        //reset password here
         reset_password();
+        break;
     case "logout":
-        //logout user 
+        //logout user
         logout();
+        break;
+    default:
 }
 
+//lOGIN FUNCTIONS
 
-//lOGIN FUNCTIONS 
-
-function login($con){
+function login($con)
+{
     $username = $_POST["username"];
     $password = $_POST["password"];
     $query = "select * from users WHERE username = '$username' AND password = '$password'";
@@ -34,34 +37,35 @@ function login($con){
         $user = mysqli_fetch_object($query_run);
         set_user_session($user);
         echo json_encode([
-            "status"=> 1,
-            "message"=> "success",
-            "user_detail" => $user
+            "status" => 1,
+            "message" => "success",
+            "user_detail" => $user,
         ]);
     } else {
         echo json_encode([
             "status" => 0,
-            "message" => "Username password does not matched"
+            "message" => "Username password does not matched",
         ]);
     }
 }
 
-
 //REGISTER FUNCITON
-function register(){
+function register()
+{
 
 }
 
-function reset_password(){
+function reset_password()
+{
 
 }
 
-function logout(){
-    
+function logout()
+{
+    unset($_SESSION['user_details']);
 }
 
-
-function set_user_session($user){
+function set_user_session($user)
+{
     $_SESSION['user_details'] = $user;
 }
-?>

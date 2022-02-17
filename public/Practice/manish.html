@@ -81,7 +81,7 @@
             case password:
                 if (!value.length) {
                     passErr.innerHTML = `please fill this field!`;
-                } else if (!/^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,25}$/.test(value)) {
+                } else if (!/^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,12}$/.test(value)) {
                     passErr.innerHTML += ` week passwrd!`;
                 }
                 break;

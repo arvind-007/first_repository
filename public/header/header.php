@@ -20,14 +20,15 @@ session_start();
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                 <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
             </form>
-            <div class="text-end">
+            <div class="text-end" id="header-buttons">
 
-                <?php if (isset($_SESSION['username'])) { ?>
-                <form method="post">
+                <?php if (isset($_SESSION["user_details"]->Username)) {?>
+                <form method="post" id="frm-logout">
+                    <input type="hidden" name="form_name" value="logout">
                     <input type="submit" name="logout" class="btn btn-outline-light me-2" value="Log Out"></input>
                 </form>
-                <?php echo $_SESSION['username']; } else { ?>
-                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#btnLogin"
+                <?php } else {?>
+                <button type="button" class="btn btn-outline-light me-2" data-bs-target="#mdl-login"
                     data-bs-toggle="modal">Login</button>
                 <button type="button" class="btn btn-warning" data-bs-toggle="modal"
                     data-bs-target="#signUp">Sign-up</button>

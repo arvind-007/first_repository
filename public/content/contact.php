@@ -1,8 +1,7 @@
-<section class="services row">
-    <div class="col-sm-6  col-md-4 col-lg-4   ">
-        <h1 style="margin-left:30%;">CONTACT</h1>
-    </div>
-</section>
+<div class="services">
+    <h1 style="margin-left:30%;">CONTACT</h1>
+</div>
+
 <section class="main_heading my-5">
     <div class="container1">
         <div class="row mx-4">

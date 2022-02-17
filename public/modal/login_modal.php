@@ -1,7 +1,7 @@
 <!-- modal for header button -->
 
 
-<div class="modal fade" id="btnLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+<div class="modal fade" id="mdl-login" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -26,7 +26,7 @@
                     <input type="hidden" name="form_name" value="login">
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary" id="btn-login">Submit</button>
+                    <button class="btn btn-outline-dark" id="btn-login">Log In</button>
                 </div>
             </form>
         </div>
